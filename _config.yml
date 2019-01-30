@@ -1,11 +1,11 @@
 # Site settings
 author: Tom Holmes
-title: 
+title: “Talk is cheap. Show me the code.”
 header-img: img/home-bg.png
 email: tholmes59@gmail.com
 copyright_name: Tom Holmes
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Learning the Art of Programming 
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  tholmes59
