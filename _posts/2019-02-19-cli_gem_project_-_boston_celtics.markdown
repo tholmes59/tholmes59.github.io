@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "CLI Gem Project - Boston Celtics"
-date:       2019-02-19 22:41:54 +0000
+date:       2019-02-19 17:41:55 -0500
 permalink:  cli_gem_project_-_boston_celtics
 ---
 
@@ -29,7 +29,8 @@ Step 2: Determine the scrape
 
 •	Before you begin coding, you will want to make sure you have found a website that you can use to pull the scraped data into you program. Try finding sites that have relatively easy to understand HTML/CSS that will allow you to find data presented in a nicely crafted list from which you can further drill down to another webpage to find additional information.
 
-•	For this project I was able to find the roster of the of the Boston Celtics which allowed me to list out the players and drill on layer deep to their individual pages where I was able to pull additional information. See https://www.cbssports.com/nba/teams/BOS/boston-celtics/roster/ 
+•	For this project I was able to find the roster of the of the Boston Celtics which allowed me to list out the players and drill on layer deep to their individual pages where I was able to pull additional information. 
+See [https://www.cbssports.com/nba/teams/BOS/boston-celtics/roster/](http://)
 
 •	You will need to get very comfortable with the developer tools in Google Chrome to dig through the HTML/CSS of the data you would like to pull and find the right CSS selectors that you will need in your scrape.
 
@@ -52,8 +53,8 @@ Conclusion:
 I’ll admit when I first read the requirements of this project I panicked and wondered how I would ever be able to complete it. I think the key is to do as much research as you can to learn about setting up your environment, building objects, creating CLI’s and understanding how to scrape a website using Nokogiri. Watch tutorials, read code examples, read articles, ask questions and use your best friend Google! Don’t try to do the whole project at once. Try to build momentum by doing one step at a time. 
 
 You can review my project via the links below:
-Video tutorial: https://drive.google.com/open?id=1w_FLmOJRxkcMyClpgJa7no9NMzDkVNPL
-Github repo: https://github.com/tholmes59/celtics-roster-cli-project.git
+Video tutorial: [ https://drive.google.com/open?id=1w_FLmOJRxkcMyClpgJa7no9NMzDkVNPL](http://)
+Github repo: [https://github.com/tholmes59/celtics-roster-cli-project.git](http://)
 
 Whatever you end up doing just have fun with it! Happy coding!!
 
