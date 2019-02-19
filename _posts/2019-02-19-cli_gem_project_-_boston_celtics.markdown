@@ -53,7 +53,9 @@ Conclusion:
 I’ll admit when I first read the requirements of this project I panicked and wondered how I would ever be able to complete it. I think the key is to do as much research as you can to learn about setting up your environment, building objects, creating CLI’s and understanding how to scrape a website using Nokogiri. Watch tutorials, read code examples, read articles, ask questions and use your best friend Google! Don’t try to do the whole project at once. Try to build momentum by doing one step at a time. 
 
 You can review my project via the links below:
+
 Video tutorial: [ https://drive.google.com/open?id=1w_FLmOJRxkcMyClpgJa7no9NMzDkVNPL](http://)
+
 Github repo: [https://github.com/tholmes59/celtics-roster-cli-project.git](http://)
 
 Whatever you end up doing just have fun with it! Happy coding!!
