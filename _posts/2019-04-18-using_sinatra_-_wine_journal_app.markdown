@@ -90,6 +90,8 @@ I found this to be a really enjoyable project which brought together everything 
 
 You can review my project via the links below:
 
+[Video tutorial](https://drive.google.com/open?id=11Izh6OFqN0lCfWAXpJ5wLRwA_NA9jEes)
+
 [Github repo](https://github.com/tholmes59/sinatra-wine-app)
 
 
