@@ -54,7 +54,7 @@ I’ll admit when I first read the requirements of this project I panicked and w
 
 You can review my project via the links below:
 
-Video tutorial: [ https://drive.google.com/open?id=1w_FLmOJRxkcMyClpgJa7no9NMzDkVNPL](http://)
+ [ Video tutorial](https://drive.google.com/open?id=1w_FLmOJRxkcMyClpgJa7no9NMzDkVNPL)
 
 Github repo: [https://github.com/tholmes59/celtics-roster-cli-project.git](http://)
 
