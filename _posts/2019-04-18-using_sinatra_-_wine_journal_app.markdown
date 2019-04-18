@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Using Sinatra - Wine Journal App"
-date:       2019-04-18 20:48:28 +0000
+date:       2019-04-18 16:48:29 -0400
 permalink:  using_sinatra_-_wine_journal_app
 ---
 
@@ -90,6 +90,7 @@ I found this to be a really enjoyable project which brought together everything 
 
 You can review my project via the links below:
 
+[Github repo](https://github.com/tholmes59/sinatra-wine-app)
 
 
 Thanks for reading and Happy Coding!!
