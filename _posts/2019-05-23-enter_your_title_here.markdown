@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Enter your title here"
-date:       2019-05-24 00:56:37 +0000
+date:       2019-05-23 20:56:38 -0400
 permalink:  enter_your_title_here
 ---
 
@@ -46,7 +46,7 @@ class Workout < ApplicationRecord
 	end
 	```
 	
-	![Fitness App Domain Model](https://drive.google.com/open?id=1Y-qpErKCGxI1Aqnb56WQ3Mh9-2KqraR6)
+![Domain Model](https://drive.google.com/open?id=1XYNEOsfAMe5Uo1pCMwsVEXWR5axOCmD4)
 	
 	
 
