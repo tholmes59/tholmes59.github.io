@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Enter your title here"
+title:      "Rails Fitness App"
 date:       2019-05-23 20:56:38 -0400
 permalink:  enter_your_title_here
 ---
@@ -17,37 +17,60 @@ class User < ApplicationRecord
     has_many :workouts
     has_many :reviews
 
-end
-
 class Workout < ApplicationRecord
     belongs_to :user
     has_many :workout_exercises
     has_many :exercises, through: :workout_exercises
     has_many :reviews
-
- end
  
- class Exercise < ApplicationRecord
+class Exercise < ApplicationRecord
     has_many :workout_exercises
     has_many :workouts, through: :workout_exercises
-		
-	end
 	
-	class Review < ApplicationRecord
+class Review < ApplicationRecord
     belongs_to :user
     belongs_to :workout
-		
-	end
 	
-	class WorkoutExercise < ApplicationRecord
+class WorkoutExercise < ApplicationRecord
     belongs_to :workout 
     belongs_to :exercise 
-		
-	end
-	```
+```
 	
-![Domain Model](https://drive.google.com/open?id=1XYNEOsfAMe5Uo1pCMwsVEXWR5axOCmD4)
-	
-	
+Another requirement was to use nested routes for for index, show, and new.  For this requirment I had nested the reviews under workouts. this would display an example URL as user/1/reviews/new. Below are the routes for this app.
+
+```
+get '/signup', to: 'users#new'
+  post '/signup', to: 'users#create'
+
+  get '/login', to: 'sessions#new'
+  post '/login', to: 'sessions#create'
+  delete 'logout', to: 'sessions#destroy'
+
+  get '/auth/github/callback', to: 'sessions#github'
+
+  resources :users
+  resources :workouts
+
+  resources :users, only: [:show] do
+    resources :workouts, only: [:index]
+  end
+
+  resources :workouts, only: [:show] do 
+    resources :reviews, only: [:new, :create, :index]
+  end
+
+  root 'static#home'
+  get '/home', to: 'welcome#home'
+```
+
+Controllers created for this application include users, sessions, workouts, reviews, and a welcome/static for the home page depending on being logged in or not. 
+
+This was a difficult but enjoyable project utilizing a lot of what we have learned so far in the Flatiron program including Ruby, Rails, HTML, CSS, Bootstrap, MySQL and Git/Github.
+
+If you would like to see the code please take a peek [Rails Fitness App](https://github.com/tholmes59/fitness-app)
+
+With this complete it's on to the front end with Javascript and React/Redux which I am excited about.
+
+Thanks again for reading and Happy Coding!!
 
 
