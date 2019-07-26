@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails Fitness App with JavaScript"
-date:       2019-07-26 00:36:03 +0000
+date:       2019-07-25 20:36:04 -0400
 permalink:  rails_fitness_app_with_javascript
 ---
 
@@ -93,7 +93,7 @@ const bindClickHandlers = () => {
             })
         })
     })
-		```
+```
 		
 Similar functionality was created for the Show pages and for a form submission. 
 		
