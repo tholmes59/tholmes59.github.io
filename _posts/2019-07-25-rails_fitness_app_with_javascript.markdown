@@ -66,6 +66,7 @@ function Workout(workout) {
 
 Lastly, the specifications required the use of an Object.prototype function and the creation of event listeners for the Index and Show pages and the submission of a form. Below are my examples for the Index page.
 
+Object.prototype function:
 ```
 Workout.prototype.formatIndex = function() {
     let workoutHtml = `
@@ -77,6 +78,7 @@ Workout.prototype.formatIndex = function() {
 }
 ```
 
+Event handler function:
 ```
 const bindClickHandlers = () => {
     $('#all-workouts').on('click', (e) => {
