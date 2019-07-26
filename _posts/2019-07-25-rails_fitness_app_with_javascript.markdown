@@ -6,7 +6,7 @@ permalink:  rails_fitness_app_with_javascript
 ---
 
 
-The JavaScript section has been really enjoyable and its a language I'm really enjoying which may make me a little strange! After learning the basics of JS syntax, principles, data structures, looping and iteration, scope, functions JS objects, and consuming and building API's, it is time for the fourth project which is to take our existing Rails application and add dynamic features using JavaScript and the JSON API. 
+The JavaScript section has been really fun and its a language I'm really enjoying which may make me a little strange! After learning the basics of JS syntax, principles, data structures, looping and iteration, scope, functions JS objects, and consuming and building API's, it is time for the fourth project which is to take our existing Rails application and add dynamic features using JavaScript and the JSON API. 
 
 The first step is to create a bare clone of the Rails app repo and rename it. From there I needed to create the JavaScript manifest in the application.js file as per the below.
 
