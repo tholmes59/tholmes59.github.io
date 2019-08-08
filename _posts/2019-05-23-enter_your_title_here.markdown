@@ -36,7 +36,7 @@ class WorkoutExercise < ApplicationRecord
     belongs_to :exercise 
 ```
 	
-Another requirement was to use nested routes for for index, show, and new.  For this requirment I had nested the reviews under workouts. this would display an example URL as user/1/reviews/new. Below are the routes for this app.
+Another requirement was to use nested routes for for index, show, and new.  For this requirment I had nested the reviews under workouts. this would display an example URL as `user/1/reviews/new`. Below are the routes for this app.
 
 ```
 get '/signup', to: 'users#new'
