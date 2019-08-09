@@ -82,7 +82,7 @@ class CreateWinesTable < ActiveRecord::Migration
 end
 ```
 
-In addition to the application controller I mentioned earlier, I also created a users controller and a wines controller. Each controller creates the appropriate RESTful routes and builds the methods for CRUD functionality.
+In addition to the application controller I mentioned earlier, I created a users controller and a wines controller. Each controller creates the appropriate RESTful routes and builds the methods for CRUD functionality.
 
 I also created .erb files for Users and Wines under Views to hold the web forms to create and login users, and create, display, edit and delete wines.
 
