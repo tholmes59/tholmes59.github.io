@@ -14,7 +14,7 @@ So it was time to make a change. Where would I look? What would I do? What types
 
 While I had learned a ton at this point I felt like I was only scratching the surface and decided I needed a more formal, structured way to learn all of this. I contemplated getting a CS degree, but going back to school for a second bachelors degree seemed unrealistic.  I had heard about coding schools as an option but found there were many, many, many of them displaying mixed results. After a lot of fact-finding and analysis I found the Flatiron School through the company I worked for. This company had hired Flatiron graduates who, after speaking with them, all gave positive reviews. After doing thorough investigation on the program I was most attracted to Flatiron’s philosophy of not just teaching their students one or two programming languages in a few months, but to teach them how to think like a programmer and to be able to “learn how to learn” a new language no matter which one it is. From there I completed Flatiron’s Coding Prep course and decided this is the one! 
 
-So hear I am! Taking the first step of many. And with that, I’m really excited to see where this takes me!
+So hear I am...taking the first step of many! And with that, I’m really excited to see where this takes me!
 
 Happy coding!
 
