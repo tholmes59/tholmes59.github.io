@@ -10,7 +10,7 @@ For our third portfolio project, we were asked to create a second web applicatio
 
 The requirements for the project were more extensive requiring at least one has_many relationship, at least one belongs_to relationship, at least two has_many through relationships, at least one many-to-many relationship that includes at least one user submittable attribute other than its foreign keys that can be submitted by the app's user, ActiveRecord scope methods and validations, and the ability to be able to sign in via a third party like Facebook or Github. 
 
-For this project I built an application for creating custom workouts that can be seen and reviewed by other users. This required creating classes for users, workouts, exercises and reviews as well as a join table to join workouts with exercises. Below are the classes and associations that were created. 
+For this project I built an application for creating custom workouts that can be seen and reviewed by other users. This required creating classes for users, workouts, exercises and reviews as well as a join table to join workouts with exercises. Below are the classes and associations that were created: 
 
 ```
 class User < ApplicationRecord
