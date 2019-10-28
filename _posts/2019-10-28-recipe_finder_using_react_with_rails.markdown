@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Recipe Finder using React with Rails"
-date:       2019-10-28 20:21:16 +0000
+date:       2019-10-28 16:21:17 -0400
 permalink:  recipe_finder_using_react_with_rails
 ---
 
